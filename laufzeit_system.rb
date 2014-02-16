@@ -53,7 +53,7 @@ class LaufzeitSystem
 # Now when the button is clicked, we call the "callback" method
 # with a reference to "button 1" as its argument.
     button1.signal_connect('clicked') do |w|
-      2.upto(6){|e|
+      2.upto(6) { |e|
         @services.service1
         #puts "bin bei #{e}"
       }

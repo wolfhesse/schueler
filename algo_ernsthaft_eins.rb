@@ -44,7 +44,7 @@ class AlgoErnsthaftEins
     # jetzt verwende ich die ueberlegen physikbiblio von johanne
     temperatur =17
     masse = 123123 # aus dem lexikon fuer h2o
-    ergebnis = JohannasPhysikBibliothek.meine_version_algo_abgeleitet_aus_dem_internet(0,1)
+    ergebnis = JohannasPhysikBibliothek.meine_version_algo_abgeleitet_aus_dem_internet(0, 1)
 
     ### aber derweil machen wirs uns einfach, weil wir Z0 und ZK und summe noch nicht kapiert haben
 

@@ -11,8 +11,8 @@ class JohannasPhysikBibliothek
   # @param masse ... molekularmasse
   #
   # guenstiger einsatzort bei der berechnung von..
-  def self.meine_version_algo_abgeleitet_aus_dem_internet(temperatur,masse )
-     Math.sqrt( 3 * BOLTZMANN_KONSTANTE * temperatur / masse)
+  def self.meine_version_algo_abgeleitet_aus_dem_internet(temperatur, masse)
+    Math.sqrt(3 * BOLTZMANN_KONSTANTE * temperatur / masse)
   end
 
 end
