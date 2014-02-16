@@ -4,6 +4,7 @@
 require 'gtk2'
 
 require './algo_dummy'
+require './algo_ernsthaft_eins'
 require './laufzeit_system'
 require './services'
 require './echte_services'
@@ -14,7 +15,7 @@ require './zeichenflaeche_dummy'
 zeichenflaeche = ZeichenflaecheDummy.new
 # zeichenservice mit zeichenflaeche_dummy und algo_dummy als Service-1
 
-zeichenservice = Zeichenservice.new(zeichenflaeche, AlgoDummy.new)
+zeichenservice = Zeichenservice.new(zeichenflaeche, AlgoErnsthaftEins.new)
 
 laufzeitsystem = LaufzeitSystem.new(zeichenservice)
 
