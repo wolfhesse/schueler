@@ -28,7 +28,14 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="RVM: ruby-2.1.0 [jo]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="atk (v2.1.0, RVM: ruby-2.1.0 [jo]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.5.3, RVM: ruby-2.1.0 [jo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cairo (v1.12.8, RVM: ruby-2.1.0 [jo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="gdk_pixbuf2 (v2.1.0, RVM: ruby-2.1.0 [jo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="glib2 (v2.1.0, RVM: ruby-2.1.0 [jo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="gtk2 (v2.1.0, RVM: ruby-2.1.0 [jo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pango (v2.1.0, RVM: ruby-2.1.0 [jo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pkg-config (v1.1.5, RVM: ruby-2.1.0 [jo]) [gem]" level="application" />
   </component>
 </module>
 
