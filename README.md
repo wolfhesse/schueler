@@ -1,2 +1,4 @@
 komponentenspielerei
 ====================
+
+next step: refactor
