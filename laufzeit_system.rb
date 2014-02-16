@@ -8,6 +8,7 @@ class LaufzeitSystem
 # Creates the window.
     @window = Gtk::Window.new
 
+
   end
 
   def start
@@ -52,10 +53,28 @@ class LaufzeitSystem
     create_button(box1, 'Service 2') do
       @services.service2
     end
-    create_button(box1, 'Button 3') do
+    create_button(box1, 'Johannas Test') do
       @services.service3
     end
+
+    create_canvas(box1) do |area|
+      puts 'area muss gefuellt werden'
+      @services.drawing_service(area)
+    end
+
     @window
+  end
+
+  def create_canvas(box1, &zeichne)
+    puts 'keine ahnung'
+    area = Gtk::DrawingArea.new
+    area.set_size_request(100, 100)
+    area.signal_connect("expose_event") do
+      zeichne.call(area)
+
+    end
+    box1.pack_start(area, true, true, 0)
+    area
   end
 
   def create_button(box1, button_text, &service)
