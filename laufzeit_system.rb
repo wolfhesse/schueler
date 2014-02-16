@@ -53,7 +53,11 @@ class LaufzeitSystem
 # Now when the button is clicked, we call the "callback" method
 # with a reference to "button 1" as its argument.
     button1.signal_connect('clicked') do |w|
-      @services.service1
+      2.upto(6){|e|
+        @services.service1
+        #puts "bin bei #{e}"
+      }
+
     end
 
 # Instead of window.add, we pack this button into the invisible
@@ -71,6 +75,18 @@ class LaufzeitSystem
 
 # Pack the second button in a box as well.
     box1.pack_start(button2, true, true, 0)
+
+# Do these same steps again to create a third button.
+    button3 = Gtk::Button.new('Button 3')
+
+# Call the same callback function with a different argument,
+# passing a reference to "button 3" instead.
+    button3.signal_connect('clicked') do |w|
+      @services.service3
+    end
+
+# Pack the third button in a box as well.
+    box1.pack_start(button3, true, true, 0)
 
     # return
     @window

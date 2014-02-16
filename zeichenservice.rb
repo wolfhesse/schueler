@@ -15,7 +15,8 @@ class Zeichenservice
   end
 
   def service2
-    puts 'hier ist nichts'
+    puts "algo reset"
+    @algo.reset2
   end
 
 end
