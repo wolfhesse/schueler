@@ -15,7 +15,10 @@ window = Gtk::Window.new
 
 # Specify the title and border of the window.
 
-Aufbau.new(Services.new).initial_setup(window)
+# zeichenservice mit zeichenflaeche_dummy und algo_dummy als Service-1
+zeichenservice = Zeichenservice.new(ZeichenflaecheDummy.new, AlgoDummy.new)
+
+Aufbau.new(zeichenservice).initial_setup(window)
 
 # You may call the show method of each widgets, as follows:
 #   button1.show
