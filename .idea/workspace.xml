@@ -17,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/johanna@demo.coverage" NAME="demo Coverage Results" MODIFIED="1392576761936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="johanna" />
+    <SUITE FILE_PATH="coverage/johanna@demo.coverage" NAME="demo Coverage Results" MODIFIED="1392577461010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="johanna" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="laufzeit_system.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="laufzeit_system.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laufzeit_system.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="821" max-vertical-offset="1584">
+            <state line="84" column="24" selection-start="2226" selection-end="2226" vertical-scroll-proportion="1.8233439" vertical-offset="934" max-vertical-offset="1800">
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
       <file leaf-file-name="echte_services.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echte_services.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="10" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="288">
+            <state line="8" column="10" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
               <folding />
             </state>
           </provider>
@@ -52,7 +52,7 @@
       <file leaf-file-name="zeichenservice.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zeichenservice.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="486">
+            <state line="18" column="16" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
               <folding />
             </state>
           </provider>
@@ -61,7 +61,7 @@
       <file leaf-file-name="zeichenflaeche_dummy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zeichenflaeche_dummy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="36" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="180">
+            <state line="2" column="36" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -76,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="algo_ernsthaft_eins.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="algo_ernsthaft_eins.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algo_ernsthaft_eins.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="209" selection-end="209" vertical-scroll-proportion="0.8181818" vertical-offset="0" max-vertical-offset="414">
+            <state line="9" column="17" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
               <folding />
             </state>
           </provider>
@@ -106,7 +106,7 @@
       <file leaf-file-name="services.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="288">
+            <state line="9" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="288">
               <folding />
             </state>
           </provider>
@@ -134,9 +134,9 @@
         <option value="$PROJECT_DIR$/aufbau.rb" />
         <option value="$PROJECT_DIR$/algo_dummy.rb" />
         <option value="$PROJECT_DIR$/demo.rb" />
-        <option value="$PROJECT_DIR$/laufzeit_system.rb" />
         <option value="$PROJECT_DIR$/zeichenservice.rb" />
         <option value="$PROJECT_DIR$/algo_ernsthaft_eins.rb" />
+        <option value="$PROJECT_DIR$/laufzeit_system.rb" />
       </list>
     </option>
   </component>
@@ -394,7 +394,11 @@
       <created>1392576281458</created>
       <updated>1392576281458</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="wp button2 = reset&#10;nb ab jetzt braucht algo ein reset">
+      <created>1392577012078</created>
+      <updated>1392577012079</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -461,7 +465,8 @@
     <MESSAGE value="wp&#10;" />
     <MESSAGE value="wp wir haben ein Math::E&#10;" />
     <MESSAGE value="wp button1 macht 5 service1-aufrufe&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="wp button1 macht 5 service1-aufrufe&#10;" />
+    <MESSAGE value="wp button2 = reset&#10;nb ab jetzt braucht algo ein reset" />
+    <option name="LAST_COMMIT_MESSAGE" value="wp button2 = reset&#10;nb ab jetzt braucht algo ein reset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -743,20 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zeichenflaeche_dummy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/echte_services.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://Ruby/LaufzeitSystem">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -776,6 +767,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="69" selection-start="430" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zeichenservice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echte_services.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
@@ -790,30 +802,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.rb">
+    <entry file="file://$PROJECT_DIR$/algo_ernsthaft_eins.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="69" selection-start="430" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="576">
+        <state line="9" column="17" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zeichenflaeche_dummy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laufzeit_system.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="821" max-vertical-offset="1584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zeichenservice.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="486">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algo_ernsthaft_eins.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="209" selection-end="209" vertical-scroll-proportion="0.8181818" vertical-offset="0" max-vertical-offset="414">
+        <state line="84" column="24" selection-start="2226" selection-end="2226" vertical-scroll-proportion="1.8233439" vertical-offset="934" max-vertical-offset="1800">
           <folding />
         </state>
       </provider>
