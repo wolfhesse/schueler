@@ -1,2 +1,2 @@
-komponentenquitschquatsch
-=========================
+komponentenspielerei
+====================
