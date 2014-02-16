@@ -21,7 +21,12 @@ class LaufzeitSystem
     Gtk.main
   end
 
-  def initial_setup
+  def initial_setup(zeichenflaeche)
+
+    # werden wir brauchen... nachdem das fenster da ist,mit einer zeichen-komponente
+    # bekommt die zeichenflaeche eine canvas referenz eingepflanzt
+    @zeichenflaeche = zeichenflaeche
+
 
 # Specify the title and border of the window.
     @window.title = 'Hello Buttons'

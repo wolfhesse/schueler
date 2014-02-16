@@ -11,10 +11,15 @@ require './zeichenservice'
 require './zeichenflaeche_dummy'
 
 
+zeichenflaeche = ZeichenflaechDummy.new
 # zeichenservice mit zeichenflaeche_dummy und algo_dummy als Service-1
-zeichenservice = Zeichenservice.new(ZeichenflaecheDummy.new, AlgoDummy.new)
+
+zeichenservice = Zeichenservice.new(zeichenflaeche, AlgoDummy.new)
 
 laufzeitsystem = LaufzeitSystem.new(zeichenservice)
-laufzeitsystem.initial_setup()
+
+# dem initial_setup die zeichenflaeche einhaengen
+laufzeitsystem.initial_setup(zeichenflaeche)
+
 laufzeitsystem.start()
 
