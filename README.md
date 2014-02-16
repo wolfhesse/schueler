@@ -1,2 +1,2 @@
-schueler
-========
+komponentenquitschquatsch
+=========================
