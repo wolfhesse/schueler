@@ -1,5 +1,5 @@
 class AlgoDummy
   def next_xy
-    return 2, 3
+    return rand(2),rand(3)
   end
 end
