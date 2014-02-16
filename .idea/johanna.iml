@@ -26,11 +26,9 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-2.1.0 [jo]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.5.3, RVM: ruby-1.9.3-p484 [jo]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="cairo (v1.12.8, RVM: ruby-1.9.3-p484 [jo]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pkg-config (v1.1.5, RVM: ruby-1.9.3-p484 [jo]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.5.3, RVM: ruby-2.1.0 [jo]) [gem]" level="application" />
   </component>
 </module>
 
