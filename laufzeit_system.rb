@@ -46,50 +46,24 @@ class LaufzeitSystem
 
 # Put the box into the main window.
     @window.add(box1)
-
-# Creates a new button with the label "Button 1".
-    button1 = Gtk::Button.new('Button 1')
-
-# Now when the button is clicked, we call the "callback" method
-# with a reference to "button 1" as its argument.
-    button1.signal_connect('clicked') do |w|
-      2.upto(6) { |e|
-        @services.service1
-        #puts "bin bei #{e}"
-      }
-
+    create_button(box1, 'Service 1') do
+      2.upto(6) { @services.service1 }
     end
-
-# Instead of window.add, we pack this button into the invisible
-# box, which has been packed into the window.
-    box1.pack_start(button1, true, true, 0)
-
-# Do these same steps again to create a second button.
-    button2 = Gtk::Button.new('Button 2')
-
-# Call the same callback function with a different argument,
-# passing a reference to "button 2" instead.
-    button2.signal_connect('clicked') do |w|
+    create_button(box1, 'Service 2') do
       @services.service2
     end
-
-# Pack the second button in a box as well.
-    box1.pack_start(button2, true, true, 0)
-
-# Do these same steps again to create a third button.
-    button3 = Gtk::Button.new('Button 3')
-
-# Call the same callback function with a different argument,
-# passing a reference to "button 3" instead.
-    button3.signal_connect('clicked') do |w|
+    create_button(box1, 'Button 3') do
       @services.service3
     end
-
-# Pack the third button in a box as well.
-    box1.pack_start(button3, true, true, 0)
-
-    # return
     @window
+  end
+
+  def create_button(box1, button_text, &service)
+    button = Gtk::Button.new(button_text)
+    button.signal_connect('clicked') do |w|
+      service.call
+    end
+    box1.pack_start(button, true, true, 0)
   end
 
 end
