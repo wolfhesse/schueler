@@ -19,4 +19,10 @@ class Zeichenservice
     @algo.reset2
   end
 
+  def service3
+    puts "bbewegung"
+    @algo.bbewegung
+
+  end
+
 end
