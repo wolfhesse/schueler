@@ -18,9 +18,6 @@ class AlgoErnsthaftEins
     @voriges_x =0
   end
 
-  def geschwindigkeit_luege(temperatur)
-    1
-  end
 
   def bbewegung
 
@@ -35,7 +32,7 @@ class AlgoErnsthaftEins
 
     # @temperatursensor.aktueller_wert() ... fake draus
     temp0 = 293.15 # V vitesse bei nn kelvin, mal so salopp gemesssen
-    z0 = geschwindigkeit_luege(temp0)
+    z0 = JohannasPhysikBibliothek.geschwindigkeit_luege(temp0)
 
     gesamtsumme = 0
 

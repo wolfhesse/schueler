@@ -15,4 +15,7 @@ class JohannasPhysikBibliothek
     Math.sqrt(3 * BOLTZMANN_KONSTANTE * temperatur / masse)
   end
 
+  def self.geschwindigkeit_luege(temperatur)
+    1
+  end
 end
